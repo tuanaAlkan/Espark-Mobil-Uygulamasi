@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.espark">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Espark">
+        <activity
+            android:name=".Abone"
+            android:exported="false" />
+        <activity
+            android:name=".SifremiUnuttum"
+            android:exported="false" />
+        <activity
+            android:name=".Gunsonu"
+            android:exported="false" />
+        <activity
+            android:name=".Ozel"
+            android:exported="false" />
+        <activity
+            android:name=".BorcAra"
+            android:exported="false" />
+        <activity
+            android:name=".AracCikis"
+            android:exported="false" />
+        <activity
+            android:name=".AracGiris"
+            android:exported="false" />
+        <activity
+            android:name=".AnaMenu"
+            android:exported="false" />
+        <activity
+            android:name=".Kayit"
+            android:exported="false" />
+        <activity
+            android:name=".Giris"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

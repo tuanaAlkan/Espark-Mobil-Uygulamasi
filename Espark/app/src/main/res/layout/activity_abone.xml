@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Abone">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/espark" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="145dp"
+        android:text="ABONE KAYDI"
+        android:textSize="17dp"
+        android:textColor="#D14444"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Firma Adı Giriniz:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="70dp"/>
+
+    <EditText
+        android:id="@+id/firmaAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="Firma Adı"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefon Numarası Giriniz:"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/telno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Telefon Numarası"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TC Kimlik Giriniz:"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/TCkimlik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="TC Kimlik"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doğum Tarihi Giriniz:"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="70dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/dogumtarihi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:hint="Doğum Tarihi"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="70dp"/>
+
+    <Button
+        android:id="@+id/kayitol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="580dp"
+        android:backgroundTint="#D14444"
+        android:text="Abone Kaydı Oluştur"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

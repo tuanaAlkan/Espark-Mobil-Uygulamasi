@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gunsonu">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/espark" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/unlem_soru" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="165dp"
+        android:text="GÜNSONU"
+        android:textSize="17dp"
+        android:textColor="#D14444"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sistemden çıkış yapmak üzeresiniz.."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="35dp"/>
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Başka işlem yapılacak mı?"
+       android:textColor="@color/black"
+       android:textSize="20dp"
+       android:layout_marginTop="350dp"
+       android:layout_marginLeft="85dp"/>
+
+    <Button
+        android:id="@+id/evet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#D14444"
+        android:text="Evet"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/hayir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hayır"
+        android:textColor="@color/black"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#D14444"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/unlem" />
+
+</RelativeLayout>
